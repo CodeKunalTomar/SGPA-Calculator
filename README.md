@@ -1,7 +1,6 @@
 # SGPA Calculator
 
-This is a C++ program that calculates the SGPA (Semester Grade Point Average) for a single semester based on the grades obtained in each course. It also provides an option to calculate the CGPA (Cumulative Grade Point Average) based on the SGPA obtained in that semester.
-
+This is a C++ program that calculates the SGPA (Semester Grade Point Average) for a single semester based on the grades obtained in each course. 
 ## SGPA Calculation Method
 
 The SGPA is calculated using the following formula:
