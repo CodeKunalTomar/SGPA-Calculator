@@ -45,23 +45,55 @@ The program takes the following input from the user for each course:
 
 ## Example
 
-Enter the number of Courses in a Semester: 4
+Enter the number of Courses in a Semester: 5
+
 Enter Course Details:
+
 Course 1:
+
 Name: Mathematics
+
 Credit Earned: 4
+
 Grade: A
+
+
 Course 2:
+
 Name: Physics
+
 Credit Earned: 3
+
 Grade: B+
+
+
 Course 3:
+
 Name: English
+
 Credit Earned: 3
+
 Grade: A+
+
+
 Course 4:
+
 Name: Computer Science
+
 Credit Earned: 5
+
 Grade: B
 
-SGPA for this Semester: 7.625
+
+Course 5:
+
+Name: Environmental Science
+
+Credit Earned: 2
+
+Grade: Q
+
+
+SGPA for this Semester: 7.33333
+
+Total Credits: 17
