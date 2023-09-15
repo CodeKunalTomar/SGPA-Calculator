@@ -34,26 +34,34 @@ double calculateSGPA(const vector<string>& courseNames, const vector<int>& credi
 
 int main()
 {
-    int numCourses;
+    int numCourses, Total_Credits;
+    
     cout << "Enter the number of Courses in a Semester: ";
     cin >> numCourses;
+    cout << endl;
 
     vector<string> coursenames(numCourses);
     vector<int> creditEarned(numCourses);
     vector<string> grades(numCourses);
 
-    cout << "Enter Course Details: " << endl;
+    cout << "Enter Course Details: \n" << endl;
 
     for(int i = 0; i < numCourses; i++)
     {
         cout << "Course " << i + 1 << ": " << endl;
+        
         cout << "Name: ";
-        cin.ignore();           //ignore the newline character left after pressing enter
+        cin.ignore();           //ignore the newline character after pressing enter
         getline(cin, coursenames[i]);
+        
         cout << "Credit Earned: ";
         cin >> creditEarned[i];
+        Total_Credits += creditEarned[i];
+        
         cout << "Grade: ";
         cin >> grades[i];
+
+        cout << endl;
     }
 
     double SGPA = calculateSGPA(coursenames, creditEarned, grades);
