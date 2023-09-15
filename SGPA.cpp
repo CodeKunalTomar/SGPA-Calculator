@@ -13,6 +13,11 @@ double calculateSGPA(const vector<string>& courseNames, const vector<int>& credi
 
     for(int i = 0; i < courseNames.size(); i++)
     {
+        if(grades[i] == "Q")
+        {
+            continue;
+        }
+        
         if(gradePoints.find(grades[i]) == gradePoints.end())
         {
             cout << "Invalid Grade: " << grades[i] << " for course " << courseNames[i] << "." << endl;
@@ -65,7 +70,7 @@ int main()
     }
 
     double SGPA = calculateSGPA(coursenames, creditEarned, grades);
-    cout << "SGPA for this Semester: " << SGPA << endl;
+    cout << "SGPA for this Semester: " << SGPA << endl << "Total Credits: " << Total_Credits << endl;
 
     return 0;
 }
