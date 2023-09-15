@@ -10,7 +10,7 @@ where:
 - `gradePoints[grades[i]]`: The grade point corresponding to the grade obtained in the ith course.
 - `TotalCredits`: The total credit earned for all courses in the semester.
 
-The CGPA can be calculated over multiple semesters by considering the SGPA obtained in each semester and using the following formula:
+You can calculate the CGPA over multiple semesters by considering the SGPA obtained in each semester and using the following formula:
 CGPA = Sum(SGPA[i] * SemesterCredits[i]) / TotalCredits
 where:
 - `SGPA[i]`: The SGPA obtained in the ith semester.
@@ -32,7 +32,7 @@ The following grading scale is used in the calculation:
 
 ## Input Details
 
-The program takes the following input from the user for each course:
+The program takes the following input for each course from the user:
 - Course name: The name of the course.
 - Credit earned: The credit earned in the respective course.
 - Grade: The grade obtained in the course (must be one of the grades in the grading scale).
