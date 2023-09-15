@@ -27,7 +27,7 @@ The following grading scale is used in the calculation:
 - B: 6
 - C: 5
 - P: 4
-- Q: -
+- Q: Qualifier (-)
 - F: Fail (0)
 
 ## Input Details
